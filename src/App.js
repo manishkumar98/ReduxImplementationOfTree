@@ -110,7 +110,6 @@ const App = (props) => {
   //console.log("heythere", props.data);
   return (
     <div className="App">
-      <h1>Creating a static tree</h1>
       <TreeView>{renderTree(props.data)}</TreeView>
     </div>
   );
