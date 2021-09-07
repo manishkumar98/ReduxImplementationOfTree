@@ -18,6 +18,7 @@ const mapStateToProps = (state) => {
 };
 const mapDispatchToProps = (dispatch) => {
   // console.log("alpha",increment.id)
+  ///
   return {
     increment: (id) => {
       //console.log("zxc", id, counter);
