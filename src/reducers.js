@@ -1,5 +1,5 @@
-import data from "./data";
-function reducers(state = data, action) {
+//import data from "./data";
+function reducers(state /*= data*/, action) {
   if (action.type === "INCREMENT") {
     //console.log("xyz", state);
     //console.log("xyz1", action);
