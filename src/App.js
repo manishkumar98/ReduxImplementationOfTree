@@ -101,7 +101,7 @@ const App = (props) => {
             </a>
           </div>
         }
-        counter={nodes.counter}
+        //counter={nodes.counter}
       >
         {Array.isArray(nodes.children)
           ? nodes.children.map((node) => renderTree(node))
